@@ -43,7 +43,7 @@ int main(){
 
     SOLVE();    
     #ifndef ONLINE_JUDGE
-        printf("\n%s(taken = %1.2f ms)\n", (((CalculateTime * 1000) > TIME_LIMIT) ? "TIME_LIMIT" : "TIME"), CalculateTime * 1000);
+        printf("\n%s(taken = %.2f ms)\n", (((CalculateTime * 1000) > TIME_LIMIT) ? "TIME_LIMIT" : "TIME"), CalculateTime * 1000);
     #endif
     return 0;
 }
